@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Для Маші ❤️</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+  overflow:hidden; font-family:Arial,sans-serif;
+  background:linear-gradient(135deg,#ffd6e7,#fff0f5,#ffc2d8);
+}
+.card{
+  position:relative; z-index:2; width:min(90%,650px); padding:60px 30px;
+  text-align:center; border-radius:30px;
+  background:rgba(255,255,255,.72); backdrop-filter:blur(10px);
+  box-shadow:0 20px 60px rgba(160,40,90,.18);
+}
+h1{margin:0; color:#d92d68; font-size:clamp(34px,7vw,64px)}
+p{margin:18px 0 0; color:#8d3152; font-size:clamp(18px,3vw,25px)}
+.heart{position:absolute; animation:float 7s linear infinite; opacity:.7}
+@keyframes float{
+  from{transform:translateY(110vh) rotate(0deg)}
+  to{transform:translateY(-15vh) rotate(360deg)}
+}
+</style>
+</head>
+<body>
+<div class="heart" style="left:8%;font-size:28px;animation-delay:0s">❤️</div>
+<div class="heart" style="left:25%;font-size:20px;animation-delay:2s">💕</div>
+<div class="heart" style="left:48%;font-size:32px;animation-delay:4s">❤️</div>
+<div class="heart" style="left:72%;font-size:24px;animation-delay:1s">💗</div>
+<div class="heart" style="left:90%;font-size:30px;animation-delay:3s">❤️</div>
+<div class="card">
+  <h1>Я тебе люблю, Маша! ❤️</h1>
+  <p>Ця сторінка спеціально для тебе 💕</p>
+</div>
+</body>
+</html>
